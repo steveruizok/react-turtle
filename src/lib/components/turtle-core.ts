@@ -176,7 +176,7 @@ class Turtle {
 		if (state !== undefined) {
 			this.setcolor(state.color)
 			this.setx(state.x)
-			this.sety(state.x)
+			this.sety(state.y)
 			this.setheading(state.dir)
 			this.setlinewidth(state.lineWidth)
 		}
